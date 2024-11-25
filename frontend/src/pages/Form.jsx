@@ -26,6 +26,7 @@ const Form = () => {
       employeeName,
       employeeCode,
       otDate,
+      otHours,
       reason,
     };
   
