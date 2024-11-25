@@ -30,7 +30,7 @@ const Form = () => {
     };
   
     try {
-      const response = await fetch('http://localhost:3000/submit', {
+      const response = await fetch('https://prod-20.centralindia.logic.azure.com:443/workflows/0bbd1c2852c64ba2b9dbae87fe0a3171/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=AoCSKW0POyfiUNzlUurZLwnceYz-Sa2qu6ukZ7miypQ', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
